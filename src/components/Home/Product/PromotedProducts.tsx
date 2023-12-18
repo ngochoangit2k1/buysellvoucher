@@ -539,7 +539,7 @@ const ItemCategory = ({ item }: any) => {
             src={Delay}
             alt='Delay'
           />
-          <div className='ml-12 mx-16'>1</div>
+          <div className='ml-12 mx-16'>{item.sold}</div>
           <div className='flex  gap-3 '>
             <img className='w-[35px] h-[35px]' src={Hero} alt='Hero' />
             <div className='flex items-center gap-1'>
